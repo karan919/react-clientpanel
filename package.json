@@ -2,8 +2,10 @@
   "name": "react-clientpanel",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://karan919/github.io/react-clientpanel",
   "dependencies": {
     "firebase": "^5.8.1",
+    "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-redux": "^5.1.1",
@@ -14,6 +16,7 @@
     "redux-firestore": "^0.6.3"
   },
   "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
