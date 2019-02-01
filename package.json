@@ -2,7 +2,7 @@
   "name": "react-clientpanel",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://karan919/github.io/react-clientpanel",
+  "homepage": "https://karan919.github.io/react-clientpanel",
   "dependencies": {
     "firebase": "^5.8.1",
     "gh-pages": "^2.0.1",
