@@ -11,10 +11,10 @@ export default () => {
               <i className="fab fa-linkedin text-primary" />
             </a>
             <a href="https://www.youtube.com/channel/UCzFU4dsDRuPId4GJhhdkvkQ">
-              <i class="fab fa-youtube text-danger" />
+              <i className="fab fa-youtube text-danger" />
             </a>
             <a href="https://github.com/karan919">
-              <i class="fab fa-github-square text-secondary" />
+              <i className="fab fa-github-square text-secondary" />
             </a>
           </div>
         </div>
@@ -23,8 +23,14 @@ export default () => {
             <h1>About</h1>
             <p>
               This Application will store client data and will calculate how
-              which they owe to the company.
+              which they owe to the company. Data is fetched and stored from
+              firebase database.
             </p>
+            <p className="spinner-text">Work in progress....</p>
+            <div className="spinner">
+              <div className="dot dot1" />
+              <div className="dot dot2" />
+            </div>
           </div>
         </div>
       </div>
