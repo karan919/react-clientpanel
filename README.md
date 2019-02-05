@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Site live at [https://karan919.github.io/react-clientpanel](https://karan919.github.io/react-clientpanel)
 
 ## Available Scripts
 
