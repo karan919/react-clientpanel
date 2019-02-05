@@ -52,7 +52,7 @@ class Clients extends Component {
                 <th>Name</th>
                 <th>Email</th>
                 <th>Balance</th>
-                <th />
+                {/* <th /> */}
               </tr>
             </thead>
             <tbody>
@@ -63,14 +63,14 @@ class Clients extends Component {
                   </td>
                   <td>{client.email}</td>
                   <td>${parseFloat(client.balance).toFixed(2)}</td>
-                  <td>
+                  {/* <td>
                     <Link
                       to={`/client/${client.id}`}
                       className="btn btn-secondary"
                     >
                       <i className="fas fa-arrow-circle-right" /> Details
                     </Link>
-                  </td>
+                  </td> */}
                 </tr>
               ))}
             </tbody>
@@ -80,12 +80,6 @@ class Clients extends Component {
     } else {
       return <Spinner />;
     }
-
-    return (
-      <div>
-        <h1>Client</h1>
-      </div>
-    );
   }
 }
 

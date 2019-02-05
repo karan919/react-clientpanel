@@ -23,7 +23,7 @@ export default () => {
             <h1>About</h1>
             <p>
               This Application will store client data and will calculate how
-              which they owe to the company. Data is fetched and stored from
+              much they owe to the company. Data is fetched and stored in
               firebase database.
             </p>
             <p className="spinner-text">Work in progress....</p>
