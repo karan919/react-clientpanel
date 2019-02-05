@@ -1,0 +1,14 @@
+.avator {
+  width: 100%;
+}
+
+.about {
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.icons {
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+}

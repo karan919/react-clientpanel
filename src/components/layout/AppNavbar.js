@@ -12,6 +12,9 @@ class AppNavbar extends Component {
           <Link to="/" className="p-2 text-dark">
             Dashboard
           </Link>
+          <Link to="/About" className="p-2 text-dark">
+            About
+          </Link>
         </nav>
       </div>
     );
